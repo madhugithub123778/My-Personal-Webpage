@@ -1,0 +1,73 @@
+body{
+margin:0;padding-top:500px;text-align:center;background-color: aqua;}
+.menu{
+position: fixed;cursor: pointer;z-index: 10;top:10px;list-style: none;right:30px;}
+
+.list{
+float:left;padding-top:5px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 15px;color:yellow;font-weight:bold;}
+.img{
+ width:200px;height:200px;border-radius:50%;margin-bottom:50px;}
+.list:hover{
+font-size:20px;background-color:greenyellow;}
+
+#welcome{
+position:absolute;left:0;top:0;right:0;bottom:0;background:linear-gradient(100deg, #5de6de 0%, #b58ecc 74%);  
+    width:100%;display:table;z-index: 9;text-align: center; padding:85px;}
+.inner{
+ text-align: center;   
+    
+}
+h1{
+font-size:40px;font-family:fantasy;color:black;font-weight:bold;padding-top: 10px;
+    
+    
+}
+h2{
+font-weight:bold;color:purple;font-family:monospace;font-size:25px;}
+
+.line{
+ background-color: rebeccapurple;width:200px;margin:3px auto;height:6px}
+
+#para{
+background-color:turquoise;text-align: center;}
+
+p{
+font-size:20px;color:navy;line-height: 1.5;margin:25px auto;text-align: center}
+   
+    
+
+html{
+scroll-behavior: smooth;   
+}
+
+
+#myCarousel img{
+ height:300px;margin-top: 35px;width:300px}
+
+#myCarousel{
+text-align: center;background-color: purple
+    
+}
+
+#contact{
+background-color: greenyellow;}
+
+#mychatbots{
+background-color: teal;
+}
+#myapps{
+background-color: yellow;
+}
+
+#mygames{
+background-color: purple;
+}
+
+.contact_1 h3{
+display: inline;}
+
+.contact_1{
+ text-decoration: none;color: red;
+}
+    
+    
